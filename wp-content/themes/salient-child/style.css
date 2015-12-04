@@ -9,6 +9,56 @@ Version: 0.1
 */
 
 
-
-
-
+/**
+ * Custom Coupon on Services page
+ */
+.coupon-contain {
+	margin: 0;
+	padding: 1em 0;
+	color: #222222;
+	line-height: 1.2em;
+	width: 25%;
+	text-align: center;
+	float: left;
+	display: inline-block;
+	border: 1px solid #dddddd;
+	font-family: Arial;
+	font-size: 14px;
+	background: #ffffff;
+}
+.coupon-contain .header {
+	color: #ef1616;
+	font-weight: bold;
+	font-size: 20px;
+}
+.coupon-contain .price {
+	margin: 0.5em 0;
+	font-family: Lovelo;
+}
+.coupon-contain .price s {
+	color: #ef1616;
+	width: 220px;
+}
+.coupon-contain .price s span {
+	color: #222;
+}
+.coupon-contain .btn-print {
+	color: #27ccc0;
+	font-weight: bold;
+	cursor: pointer;
+	margin: 1em 0;
+	font-family: Lovelo;
+}
+.coupon-contain .bottom {
+	color: #ada9a9;
+}
+@media only screen and (min-width : 690px) and (max-width : 1000px) {
+ 	.coupon-contain {
+ 		width: 50%;
+ 	}
+}
+@media only screen and (min-width: 480px) and (max-width: 690px) {
+	.coupon-contain {
+ 		width: 100%;
+ 	}
+}
