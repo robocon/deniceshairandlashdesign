@@ -52,12 +52,25 @@ Version: 0.1
 .coupon-contain .bottom {
 	color: #ada9a9;
 }
+
+@media only screen and (min-width : 1px) and (max-width : 1000px) {
+	/* Fix menu not show when open on mobile*/
+ 	#slide-out-widget-area .mobile-only {
+		display: block!important;
+	}
+}
+
 @media only screen and (min-width : 690px) and (max-width : 1000px) {
  	.coupon-contain {
  		width: 50%;
  	}
 }
 @media only screen and (min-width: 480px) and (max-width: 690px) {
+	.coupon-contain {
+ 		width: 100%;
+ 	}
+}
+@media only screen and (max-width : 690px) {
 	.coupon-contain {
  		width: 100%;
  	}
